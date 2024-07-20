@@ -1,6 +1,7 @@
 import axios from "axios";
 
 class SpotifyClient {
+  // ↓初期化処理
   static async initialize() {
     const response = await axios.post(
       "https://accounts.spotify.com/api/token",

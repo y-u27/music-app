@@ -15,7 +15,7 @@ export function SongList(props) {
       {props.songs.map((song) => {
         return (
           <div
-            onClick={() => props.onSongSelected()}
+            onClick={() => props.onSongSelected(song)}
             key={song.id}
             className="flex-none cursor-pointer "
           >

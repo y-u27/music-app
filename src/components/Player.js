@@ -1,5 +1,4 @@
-import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
-import { faStopCircle } from "@fortawesome/free-solid-svg-icons/faStopCircle";
+import { faPlayCircle, faStopCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Player(props) {
@@ -8,7 +7,7 @@ export function Player(props) {
       <div className="grid grid-cols-3">
         <div className="flex items-center">
           <img
-            src={props.song.album.image[0].url}
+            src={props.song.album.images[0].url}
             alt="thumbnail"
             className="rounded-full mr-3 h-[50px] w-[50px]"
           />

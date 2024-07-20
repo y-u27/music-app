@@ -10,7 +10,7 @@ const limit = 20;
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [popularSongs, setPopularSongs] = useState([]);
-  const [isPlay, setIsPlay] = useState([]);
+  const [isPlay, setIsPlay] = useState(false);
   const [selectedSong, setSelectedSong] = useState();
   const [keyword, setKeyword] = useState("");
   const [searchedSongs, setSearchedSongs] = useState();
